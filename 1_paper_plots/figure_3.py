@@ -13,7 +13,7 @@ import os
 import matplotlib.ticker as mticker
 import argparse
 
-from corregister_wfi.raster import plot_raster as pltr
+from corregister_wfi.utils import plot_raster as pltr
 
 
 def calc_rmse(x, y):
